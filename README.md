@@ -17,7 +17,11 @@ V1.0 is intended to work on a jupyter notebook:
  - Discution cells aim to help future development
  - Any academic intention must be consulted with the authors 
  
-# DataSEt
+# DataSet 
+ - looking for one 
+
+# methods 
+ - laplacian 
 
 # Colaborators
  - [Johan Ramírez](https://github.com/joaramirezra)
