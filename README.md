@@ -1,16 +1,44 @@
-# Mineral-Border-Dectetion ( V0.5)
+# Deteccion de cotornos de minerales en seccones delgadas ( V0.8)
 
-This project aim to help geologists to detect border of minerals on thin sections to then mask them one by one, this with the goal of help in the manual classification and in a future process of automate
+Este projecto tiene como objetivo ayudar al lector a extraer minerales presentes en una seccion delgada (PPL o XPL) de elementos primarios ( rocas igneas, metamorficas y sedimentarias) , para ello se crea un algoritmo que permite la evaluar el impacto que tiene las siguientes caracteristicas en la definicion de bordes de mineral y la respectiva extraccion : 
 
-# Requirements
+- Cambio del espacio de color
+- Efecto de tecnicas de suavizado
+- Algoritmos de deteccion de borde
+- Transformaciones morfologicas sobre la imagen
+- Tecnicas y patametros de umbralizados
 
-- Python 3.6 
-- Tensorflow 2.3.1
-- opencv 4.5
-- keras
-- matplotlib
+para ello se crea un notebook de jupyter que permite evaluar el conjunto del dataSet el cual esta copuesto por los siguientes imagenes
 
-# Instalation and Use 
+ ### Metamorficas PPL
+ Conjunto de 250 imagenes de tamaño 250*350 en formato PNG numerados de manera Ascendente con nomenclatura ./Muestra#
+ ![imagen tipo1](https://raw.githubusercontent.com/joaramirezra/Mineral-Border-Dectetion/Readme/Typo1.png) 
+ 
+ ### Igneas PPL
+ Conjunto de 250 imagenes de tamaño 250*350 en formato PNG numerados de manera Ascendente con nomenclatura ./Muestra#
+ ![imagen tipo1](https://raw.githubusercontent.com/joaramirezra/Mineral-Border-Dectetion/Readme/tipo2.png) 
+ 
+ ### Sedimentarias PPL
+ Conjunto de 250 imagenes de tamaño 250*350 en formato PNG numerados de manera Ascendente con nomenclatura ./Muestra#
+ ![imagen tipo1](https://raw.githubusercontent.com/joaramirezra/Mineral-Border-Dectetion/Readme/tipo3.png)
+  
+ 
+ ### Metamorficas XPL
+ Conjunto de 250 imagenes de tamaño 250*350 en formato PNG numerados de manera Ascendente con nomenclatura ./Muestra#
+ 
+ ### Igneas XPL
+ Conjunto de 250 imagenes de tamaño 250*350 en formato PNG numerados de manera Ascendente con nomenclatura ./Muestra#
+ 
+ ### Sedimentarias XPL
+
+
+# Requerimientos
+
+- Python 3.6 o superior
+ - opencv 3
+ - matplotlib
+
+# Instalaccion y usi  
 
 V1.0 is intended to work on a jupyter notebook: 
  - all the functions are comented
