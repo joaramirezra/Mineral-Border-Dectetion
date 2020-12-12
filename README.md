@@ -18,12 +18,13 @@ V1.0 is intended to work on a jupyter notebook:
  - Any academic intention must be consulted with the authors 
  
 # DataSet 
- - 6 types each type of rock has 250 images each one with a 300x250 pixels
- 
-
- 
-
- - looking for one 
+El data set consiste en una conjunto de 1500 imagenes de tamaño 300x250 pixels las cuales estan divididas en los siguientes 6 grupos :
+ - Metamorficas PPL (250 imagenes)
+ - Igneas PPL (250 imagenes)
+ - Sedimentarias PPL (250 imagenes)
+ - Metamorficas XPL (250 imagenes)
+ - Igneas XPL (250 imagenes)
+ - Sedimentarias XPL (250 imagenes)
 
 # methods 
  - Gaussian
