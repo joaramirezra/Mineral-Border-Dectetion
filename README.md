@@ -38,7 +38,20 @@ para ello se crea un notebook de jupyter que permite evaluar el conjunto del dat
  - opencv 3
  - matplotlib
 
-# Instalaccion y usi  
+# Instalaccion y uso
+
+# Cambio canal de color 
+
+El cambio de color de la imagen original se hace mediante el uso de la libreria OpenCv, especificamente se realizan los siguientes cambios de color 
+ ### RGB a HSV 
+ ### RGB a HSI 
+ ### RGB a YCBCR
+ 
+ # Impacto de los metodos de suavizado 
+ 
+ 
+ 
+ 
 
 V1.0 is intended to work on a jupyter notebook: 
  - all the functions are comented
