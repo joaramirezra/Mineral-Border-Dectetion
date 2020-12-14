@@ -38,70 +38,28 @@ para ello se crea un notebook de jupyter que permite evaluar el conjunto del dat
  - opencv 3
  - matplotlib
 
-# Instalaccion y usi  
+# Instalaccion y uso
+
+# Cambio canal de color 
+
+El cambio de color de la imagen original se hace mediante el uso de la libreria OpenCv, especificamente se realizan los siguientes cambios de color 
+ ### RGB a HSV 
+ ### RGB a HSI 
+ ### RGB a YCBCR
+ 
+ # Impacto de los metodos de suavizado 
+ 
+ 
+ 
+ 
 
 V1.0 is intended to work on a jupyter notebook: 
  - all the functions are comented
  - Discution cells aim to help future development
  - Any academic intention must be consulted with the authors 
- 
-# DataSet 
- - 6 types each type of rock has 250 images each one with a 300x250 pixels
- 
+# Analisis
 
- 
-
- - looking for one 
-
-# methods 
- - Gaussian
- - Bilateral 
- - Meanshift
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.img-container {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
-<body>
-
-<h2>Images Side by Side</h2>
-<p>Float images side by side:</p>
-
-<div class="clearfix">
-  <div class="img-container">
-    <img src="https://raw.githubusercontent.com/joaramirezra/Mineral-Border-Dectetion/main/images/type1/Muestra13.png" width="200">
-  </div>
-  <div class="img-container">
- <img src="https://raw.githubusercontent.com/joaramirezra/Mineral-Border-Dectetion/main/images/type2/Muestra13.png" width="200">
-  </div>
-  <div class="img-container">
- <img src="https://raw.githubusercontent.com/joaramirezra/Mineral-Border-Dectetion/main/images/type3/Muestra13.png" width="200">
-  </div>
-</div>
-
-
-
-</body>
-</html>
-
-
+# Bibligrafia
 
 # Colaborators
  - [Johan Ramírez](https://github.com/joaramirezra)
