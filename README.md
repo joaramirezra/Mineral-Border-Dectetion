@@ -1,4 +1,4 @@
-# Deteccion de cotornos de minerales en seccones delgadas ( V0.8)
+# Deteccion de cotornos de minerales en secciones delgadas ( V0.8)
 
 Este projecto tiene como objetivo ayudar al lector a extraer minerales presentes en una seccion delgada (PPL o XPL) de elementos primarios ( rocas igneas, metamorficas y sedimentarias) , para ello se crea un algoritmo que permite la evaluar el impacto que tiene las siguientes caracteristicas en la definicion de bordes de mineral y la respectiva extraccion : 
 
@@ -49,7 +49,7 @@ El cambio de color de la imagen original se hace mediante el uso de la libreria 
  
  # Impacto de los metodos de suavizado 
  
- 
+ El impacto que tiene el suavizado en las imagenes difiere del tipo de roca, ya que entre rocas puede haber distintas efectos, algunos positivos otros negativos, sin embargo este impacto se debe hacer en rocas igneas al ser las que pueden tener secciones laminares
  
  
 
