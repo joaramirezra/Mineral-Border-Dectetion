@@ -1,4 +1,4 @@
-# Deteccion de cotornos de minerales en secciones delgadas ( V0.8)
+# Deteccion de cotornos de minerales en secciones delgadas ( V0.01)
 
 Este projecto tiene como objetivo ayudar al lector a extraer minerales presentes en una seccion delgada (PPL o XPL) de elementos primarios ( rocas igneas, metamorficas y sedimentarias) , para ello se crea un algoritmo que permite la evaluar el impacto que tiene las siguientes caracteristicas en la definicion de bordes de mineral y la respectiva extraccion : 
 
@@ -60,6 +60,7 @@ V1.0 is intended to work on a jupyter notebook:
 # Analisis
 
 # Bibligrafia
+aun Falta un poco 
 
 # Colaborators
  - [Johan Ramírez](https://github.com/joaramirezra)
