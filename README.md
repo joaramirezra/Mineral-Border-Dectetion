@@ -1,6 +1,14 @@
-# Deteccion de cotornos de minerales en secciones delgadas ( V0.01)
 
-Este projecto tiene como objetivo ayudar al lector a extraer minerales presentes en una seccion delgada (PPL o XPL) de elementos primarios ( rocas igneas, metamorficas y sedimentarias) , para ello se crea un algoritmo que permite la evaluar el impacto que tiene las siguientes caracteristicas en la definicion de bordes de mineral y la respectiva extraccion : 
+# Deteccion y enmascaramiento de granos secciones delgadas ( V0.5)
+
+Este projecto pretende recopilar informacion suficiente para la generacion de modelos de aprendizaje automatico para la extraccion de granos de minerales en secciones delgadas, dichos granos pueden variar en su forma , textura, tamaño , redondez entre otros, por lo cual se busca llenar al lector de conocimiento e informacion que le puedan ser util para contribuir a este projecto. 
+
+# Data
+
+El conjunto de datos aqui recopilado consiste en la seleccion de muestras representativas de rocas igneas, metamorficas y sedimentarias, tomadas con distintos tipos de microscopios y con distintas tecnicas, como por ejemplo luz poralizada , de las cuales a continuacion se muestran un ejemplo 
+
+# Roca 
+
 
 - Cambio del espacio de color
 - Efecto de tecnicas de suavizado
