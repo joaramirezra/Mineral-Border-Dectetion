@@ -59,13 +59,9 @@ El cambio de color de la imagen original se hace mediante el uso de la libreria 
  
  El impacto que tiene el suavizado en las imagenes difiere del tipo de roca, ya que entre rocas puede haber distintas efectos, algunos positivos otros negativos, sin embargo este impacto se debe hacer en rocas igneas al ser las que pueden tener secciones laminares
  
- 
-
-V1.0 is intended to work on a jupyter notebook: 
- - all the functions are comented
- - Discution cells aim to help future development
- - Any academic intention must be consulted with the authors 
 # Analisis
+
+Se encuentra que e el primer acercamiento con el cambio de colores, tecnicas de suavizado y umbralizado es posible optimizar la extraccion de caracteristicas de sin embargo este avance se debe complementar con la extracion semantica de la escena 
 
 # Bibligrafia
 aun Falta un poco 
